@@ -34,5 +34,3 @@ def work(conn, addr):
         conn.send(resp.encode('utf-8'))
 
 
-if __name__ == "__main__":
-    create_server()
